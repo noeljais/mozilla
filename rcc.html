@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #ffffff;
+            padding: 50px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .div1 , .div2, .div3 ,.div4{
+          display: flex;
+          justify-content: space-around;
+          gap: 20px;
+          
+        }
+ div img
+ {
+  height: 180px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px rgb(138, 134, 134);
+ }
+ img{
+  transition: transform .3s ease;
+ }
+ img:hover{
+  transform: scale(1.1);
+ }
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 150px;
+    font-family: Arial, sans-serif;
+}
+
+.overview, .gallu, .elikutan {
+    margin-left: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    font-size: 24px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(69, 65, 65);
+    border-radius: 30px;
+}
+
+.navbar a:active {
+    background-color: rgb(220, 48, 48);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+}
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer p {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #f1c40f;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 0 15px;
+    }
+    .social-links a {
+        font-size: 14px;
+    }
+}
+
+</style>
+</head>
+<body>
+    
+    <nav class="navbar">
+            
+        <ul>
+            
+            <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\index.html">HOME</a></li>
+            <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\NSS.html">NSS</a></li>
+            <li><a  href="c:\Users\noelj\OneDrive\Desktop\PROJECT\ncc.html">NCC</a></li>
+            <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\rcc.html">GALLERY</a></li>
+            <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\feedback.html">FEEDBACK</a></li>
+        
+        </ul>
+    </nav>
+
+<div>
+<div class="div1">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250201-WA0012.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0008.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0009.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0010.jpg" alt="img">
+</div>
+<div class="div2">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0011.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0012.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0013.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0014.jpg" alt="img">
+</div>
+<div class="div3">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\IMG-20250209-WA0015.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\WhatsApp Image 2025-02-09 at 22.23.30_5c7610cd.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\WhatsApp Image 2025-02-09 at 22.23.31_3f36d621.jpg" alt="img">
+<img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\WhatsApp Image 2025-02-09 at 22.23.31_b733753a.jpg" alt="img">
+</div>
+<div class="div4">
+  <img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\img\WhatsApp Image 2025-02-09 at 22.23.31_cf9256b1.jpg" alt="img">
+  <img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\10.jpeg" alt="img">
+  <img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\22.jpeg" alt="img">
+  <img src="C:\Users\noelj\OneDrive\Desktop\PROJECT\44.jpeg" alt="img">
+</div>
+
+
+</div>
+<footer class="footer">
+  <div class="footer-content">
+    
+    <ul>
+        <li style="color: rgba(245, 245, 8, 0.623);">Quick Links</li>
+        <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\index.html">Home</a></li>
+        <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\NSS.html">Nss</a></li>
+        <li><a  href="C:/Users/noelj/OneDrive/Desktop/PROJECT/ncc.html">Ncc</a></li>
+        <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\rcc.html">Gallery</a></li>
+        <li><a href="C:\Users\noelj\OneDrive\Desktop\PROJECT\feedback.html">FEEDBACK</a></li>
+    
+    </ul>
+  
+  </div>
+</footer>
+</body>
+</html>
+
